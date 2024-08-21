@@ -14,7 +14,11 @@ const port = 4000;
 
 // middleware
 app.use(express.json());
-app.use(cors());
+app.use(cors({
+    origin: ['http://localhost:5173','http://localhost:5174'], // Replace with your frontend's URL
+    credentials: true,
+}));
+
 
 // database connection
 connectDB();

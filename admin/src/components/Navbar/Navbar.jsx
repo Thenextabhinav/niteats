@@ -23,7 +23,7 @@ const Navbar = () => {
       </div>
       <div className='navbar-right'>
         <div className='admin-info'>
-          <span className='admin-name'>CulGuy0099</span>
+          <span className='admin-name'>CoolGuy0099</span>
           <span className='admin-role'>Super Admin</span>
         </div>
         <div className='profile-container'>
@@ -39,7 +39,7 @@ const Navbar = () => {
                 <img className='dropdown-profile' src={assets.profile_image} alt='profile img' />
                 <div>
                   <h3>CulGuy0099</h3>
-                  <p>theculguy@gmail.com</p>
+                  <p>thenextabhinav@gmail.com</p>
                 </div>
               </div>
               <ul>

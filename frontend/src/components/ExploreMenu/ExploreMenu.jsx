@@ -7,7 +7,7 @@ const ExploreMenu = ({ category, setCategory }) => {
     <div className="explore-menu" id="explore-menu">
       <h1>Explore our Menu</h1>
       <p className="explore-menu-text">
-        Indulge in a culinary journey with IIIT-EATS! From gourmet meals to
+        Indulge in a culinary journey with NIT-EATS! From gourmet meals to
         quick bites, we bring a world of flavors to your doorstep. Craving
         comfort food or exotic cuisines? Our diverse menu caters to every
         palate. Experience convenience, quality, and taste in every order.

@@ -8,9 +8,9 @@ const Footer = () => {
     <footer className="footer" id="footer">
       <div className="footer-content">
         <div className="footer-section">
-          <img src={badge} alt="IIIT Eats logo" className="footer-logo" />
+          <img src={badge} alt="NIT Eats logo" className="footer-logo" />
           <p className="footer-description">
-            <b>IIIT Eats</b>: Your Best Intra-Campus Food Delivery Solution. Quick, easy, and delicious meals from your favorite campus canteens.
+            <b>NIT Eats</b>: Your Best Intra-Campus Food Delivery Solution. Quick, easy, and delicious meals from your favorite campus canteens.
           </p>
           <div className="footer-social-icons">
             <a href="#" aria-label="Facebook"><img src={assets.facebook_icon} alt="Facebook" /></a>
@@ -30,16 +30,16 @@ const Footer = () => {
         <div className="footer-section">
           <h2>Contact Us</h2>
           <ul>
-            <li><i className="fas fa-phone"></i> +91-6358894483</li>
-            <li><i className="fas fa-envelope"></i> kevinrt1923@gmail.com</li>
-            <li><i className="fas fa-map-marker-alt"></i> IIIT-Hyderabad Campus, Hyderabad</li>
-            <li><i className="fas fa-map-marker-alt"></i> Telangana</li>
+            <li><i className="fas fa-phone"></i> +91-7070293759</li>
+            <li><i className="fas fa-envelope"></i> thenextabhinav@gmail.com</li>
+            <li><i className="fas fa-map-marker-alt"></i> NIT-Jamshedpur Campus, Jharkand</li>
+            <li><i className="fas fa-map-marker-alt"></i> Jharkhand</li>
             <li><i className="fas fa-map-marker-alt"></i> India</li>
           </ul>
         </div>
       </div>
       <div className="footer-bottom">
-        <p>&copy; 2024 IIIT-EATS. All Rights Reserved.</p>
+        <p>&copy; 2024 NIT-EATS. All Rights Reserved.</p>
       </div>
     </footer>
   );

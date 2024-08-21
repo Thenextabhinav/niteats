@@ -1,4 +1,4 @@
-# IIIT-EATS - Intra Campus Food Delivery System !
+# NIT-EATS - Intra Campus Food Delivery System !
 
 ## Environment Variables
 - Create a .env file in the backend folder which should look like:

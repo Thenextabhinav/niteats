@@ -8,10 +8,11 @@ import Footer from "./components/Footer/Footer";
 import LoginPopup from "./components/LoginPopup/LoginPopup";
 import Verify from "./pages/Verify/Verify";
 import MyOrders from "./pages/MyOrders/MyOrders";
+import axios from "axios";
 
 const App = () => {
   const [showLogin, setShowLogin] = useState(false);
-
+  axios.defaults.withCredentials = true;
   return (
     <>
       {showLogin ? <LoginPopup setShowLogin={setShowLogin} /> : <></>}
